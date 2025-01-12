@@ -46,23 +46,23 @@ function ans () {
     let userImage = ' ';
     let computerImage = ' ';
     if(userMove === 'rock'){
-        userImage = '<img class = "rock-img" src = "/home/troyy/Downloads/troyy/javascript/images/rock-emoji.png">';
+        userImage = '<img class = "rock-img" src = "images/rock-emoji.png">';
     }
     else if(userMove === 'paper'){
-        userImage = '<img class = "paper-img" src = "/home/troyy/Downloads/troyy/javascript/images/paper-emoji.png">';
+        userImage = '<img class = "paper-img" src = "images/paper-emoji.png">';
     }
     else if (userMove === 'scissors'){
-        userImage = '<img class = "scissor-img" src = "/home/troyy/Downloads/troyy/javascript/images/scissors-emoji.png">';
+        userImage = '<img class = "scissor-img" src = "images/scissors-emoji.png">';
     }
 
     if(computerMove1 === 'rock'){
-        computerImage = '<img class = "rock-img" src = "/home/troyy/Downloads/troyy/javascript/images/rock-emoji.png">';
+        computerImage = '<img class = "rock-img" src = "images/rock-emoji.png">';
     }
     else if (computerMove1 === 'paper'){
-        computerImage = '<img class = "paper-img" src = "/home/troyy/Downloads/troyy/javascript/images/paper-emoji.png">';
+        computerImage = '<img class = "paper-img" src = "images/paper-emoji.png">';
     }
     else if (computerMove1 === 'scissors'){
-        computerImage = '<img class = "scissor-img" src = "/home/troyy/Downloads/troyy/javascript/images/scissors-emoji.png">';
+        computerImage = '<img class = "scissor-img" src = "images/scissors-emoji.png">';
     }
     if(userMove === computerMove1){
         score.ties = score.ties+1;
